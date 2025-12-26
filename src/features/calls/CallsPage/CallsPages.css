@@ -1,0 +1,82 @@
+.title {
+    margin: 0;
+}
+
+.section {
+    margin-top: 12px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 10px 8px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+.col-id {
+    width: 90px;
+    opacity: 0.8;
+}
+
+.col-agent {
+    width: 120px;
+}
+
+.col-status {
+    width: 130px;
+}
+
+.col-date {
+    width: 190px;
+}
+
+.col-actions {
+    width: 220px;
+}
+
+.customer {
+    font-weight: 800;
+}
+
+.topic {
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.muted {
+    opacity: 0.85;
+}
+
+.empty {
+    padding: 14px;
+    opacity: 0.7;
+}
+
+.pagination {
+    margin-top: 12px;
+}
+
+/* Links */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkBtn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    background: white;
+    color: #111827;
+    text-decoration: none;
+}
+
+.linkBtn:hover {
+    background: #f3f4f6;
+}

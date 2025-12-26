@@ -1,0 +1,102 @@
+.drawerBody {
+    background: #f9fafb;
+    height: 100%;
+    border-radius: 0;
+    padding: 16px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.subtitle {
+    opacity: 0.6;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.section {
+    margin-top: 12px;
+}
+
+.muted {
+    opacity: 0.7;
+}
+
+.meta {
+    opacity: 0.75;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+/* Chat list */
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Remove card look */
+.list .card {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* Base bubble */
+.segment {
+    max-width: 84%;
+    padding: 10px 12px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    line-height: 1.35;
+    font-size: 13px;
+}
+
+/* AGENT (right side, green) */
+.segment--agent {
+    align-self: flex-end;
+    background: #ecfdf5;
+    border-color: #bbf7d0;
+    border-top-right-radius: 6px;
+}
+
+/* CUSTOMER (left side, white) */
+.segment--customer {
+    align-self: flex-start;
+    background: #ffffff;
+    border-top-left-radius: 6px;
+}
+
+/* Header */
+.segmentHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-weight: 800;
+    font-size: 11px;
+    opacity: 0.85;
+}
+
+/* Speaker label */
+.speaker {
+    text-transform: capitalize;
+}
+
+/* Timestamp pill */
+.time {
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 11px;
+    opacity: 0.7;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(17, 24, 39, 0.06);
+}
+
+/* Message text */
+.segmentText {
+    opacity: 0.95;
+    white-space: pre-wrap;
+}

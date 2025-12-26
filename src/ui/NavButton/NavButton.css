@@ -1,0 +1,14 @@
+/* links */
+.nav-link {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #ffffff;
+    color: #111827;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-link--active {
+    background: #111827;
+    color: #ffffff;
+}

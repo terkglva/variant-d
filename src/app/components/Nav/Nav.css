@@ -1,0 +1,18 @@
+.nav-card {
+    margin: 16px;
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-row--space {
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 700;
+}
+

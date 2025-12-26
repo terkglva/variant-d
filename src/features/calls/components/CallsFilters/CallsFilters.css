@@ -1,0 +1,20 @@
+.panel {
+    padding: 12px;
+}
+
+.label {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.date {
+    min-width: 150px;
+}
+
+.input,
+.select {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background: white;
+}
