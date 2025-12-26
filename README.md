@@ -66,7 +66,7 @@ The filter must work correctly together with:
 ### B) Call lifecycle actions (10 points)
 Implement call lifecycle actions:
 
-- **Start call** → status changes to `in_progress`
+- **Start call** → status changes to `in_progress` 
 - **Finish call** → status changes to `completed`
 
 Requirements:
